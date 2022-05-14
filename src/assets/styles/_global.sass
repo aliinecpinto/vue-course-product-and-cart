@@ -1,0 +1,27 @@
+*,
+*:before,
+*:after
+    box-sizing: border-box
+
+body
+    background: $bodyBackground
+    color: $bodyTextColor
+    font-family: 'avenir next', avenir, ubuntu, roboto, noto, 'segoe ui', sans-serif
+
+h1
+    margin: 0px
+
+th
+    font-weight: bold
+
+.message-close
+    background: transparent
+    border: 0px
+    border-radius: $buttonRadius
+    padding: 0px 13px
+    color: red
+    font-size: $fontSize * 2
+    font-weight: bold
+    &:hover
+        background: red
+        color: white
